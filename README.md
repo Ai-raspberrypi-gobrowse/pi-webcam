@@ -73,24 +73,6 @@ There are two ways you can run this automated setup. You can either run everythi
   1. Run the Ansible playbook: `ansible-playbook main.yml`
   1. You can shutdown the Pi at this point.
 
-### Setup from another Computer
-
-  1. Make sure you have [Ansible installed](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) on your computer.
-  1. Flash the latest Raspberry Pi OS a microSD card. Make sure you added an `ssh` file to the boot volume so SSH is enabled on first boot.
-  1. Once Raspbian is loaded on the card and you have the `ssh` file in the boot volume, insert the card in your Pi, and plug in your Pi to boot it up.
-  1. Make sure you can log into the Pi via SSH. Ideally, add your SSH key to the Pi using `ssh-copy-id`. If you don't, make sure to add the `-k` parameter to the `ansible-playbook` command later so you can enter the SSH password.
-  1. Clone or download this repository to your computer.
-  1. Use the ssh inventory file: `cp inventory-ssh.example inventory`
-  1. Update the IP address in `inventory` to match the IP address or hostname of your Raspberry Pi.
-  1. Edit the `config.yml` file to your liking (the defaults should be fine though).
-  1. Run the Ansible playbook:
-
-     ```
-     ansible-playbook main.yml
-     ```
-
-  1. You can shutdown the Pi at this point (log in via SSH then `sudo shutdown now`).
-
 ## Plugging in the Camera
 
 You could've done this earlier, but if you haven't yet, plug the camera module into the Raspberry Pi using the appropriate camera connector.
