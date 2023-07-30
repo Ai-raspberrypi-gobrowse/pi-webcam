@@ -8,7 +8,7 @@
 - name: Copy piwebcam service into place.
   copy:
     remote_src: true
-    src: /home/pi/uvc-gadget/piwebcam.service
+    src: /home/[your own account]/uvc-gadget/piwebcam.service
     dest: /etc/systemd/system/piwebcam.service
     owner: root
     group: root
