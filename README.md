@@ -118,4 +118,6 @@ MIT.
 
 ## Author
 
-I'm [Jeff Geerling](https://www.jeffgeerling.com), and I approve of this repository.
+I'm [Jeff Geerling](https://www.jeffgeerling.com), and I approve of this repository. Edited by Ai-raspberrypi-gobrowse.
+
+## have issues, go to my issues repo
