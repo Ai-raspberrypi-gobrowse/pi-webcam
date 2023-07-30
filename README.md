@@ -1,6 +1,5 @@
 # Raspberry Pi Webcam
-
-[![CI](https://github.com/geerlingguy/pi-webcam/workflows/CI/badge.svg?branch=master)](https://github.com/geerlingguy/pi-webcam/actions?query=workflow%3ACI)
+**waring, this is not the sames as the original**
 
 <p align="center"><img src="https://raw.githubusercontent.com/geerlingguy/pi-webcam/master/files/pi-webcam-tripod.jpg" width="400" height="400" alt="Raspberry Pi Zero W with HQ Camera and wide-angle lens on Tripod" /></p>
 
@@ -70,7 +69,7 @@ There are two ways you can run this automated setup. You can either run everythi
   1. Clone this repository to your Pi: `git clone https://github.com/geerlingguy/pi-webcam.git`
   1. Go into the repository directory: `cd pi-webcam`
   1. Use the local inventory file: `cp inventory-local.example inventory`
-  1. go to /tasks/piwebcam.yml and change [your acount name] to your raspi username
+  1. go to /tasks/piwebcam.yml, and task/uvc-gadget and change [your acount name] to your raspi username
   1. Run the Ansible playbook: `ansible-playbook main.yml`
   1. You can shutdown the Pi at this point.
 
